@@ -17,9 +17,11 @@
     --dark-gray-blue: hsl(224, 30%, 27%);
 
     /* creo variables para los tamaños de letras */
-    --sm: 10px;
-    /* --md: 18px; este es el tamaño por defecto */
-    --bg: 28px;
+    --sm: 12px;
+    --estandar: 18px; /* este es el tamaño por defecto */
+    --md: 24px;
+    --bg: 32px;
+    --gi: 48px;
     
 }
 
@@ -30,8 +32,63 @@ body {
 
 /* CONTENEDOR PRINCIPAL */
 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENEDOR DEL RESULTADO TOTAL */
+.big-result-container{
+    background: linear-gradient(var(--light-slate-blue), var(--cobalt-blue));
+    border-radius: 8%;
+    width: 300px;
+    height: 400px;
+    margin: 48px;
+}
+
+/* Primer parrafo */
+.result-title{
+    color: var(--pale-blue);
+    opacity: 70%;
+    text-align: center;
+    height: var(--md);
+    margin: 28px 0 0 0;
+}
+
+/* numero grande */
+.container-score{
+    background: linear-gradient(var(--violet-blue
+    ), var(--light-royal-blue)); 
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 24px auto;
 
 }
+
+.big-score{
+    text-align: center;
+    color: var(--white);
+    font-size: var(--gi);
+    margin: 12px 0 0 0;
+}
+
+.text1{
+    text-align: center;
+    color: var(--pale-blue);
+    opacity: 30%;
+    font-size: var(--sm);
+    margin: 0;
+}
+
+
+
 
 .attribution { 
     font-size: 11px; 
