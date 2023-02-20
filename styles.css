@@ -147,13 +147,14 @@ body {
     font-size: var(--sm2);
     color: var(--ligth-red);
     font-weight: bold;
+    margin: 10px 0px 0px 4px;
 }
 
 .score-reaction{
     font-size: var(--sm2);
     color: var(--persian-blue);
     font-weight: bold;
-    margin: 15px 0 0 64px;
+    margin: 10px 0 0 64px;
 }
 
 .score-reaction-total{
@@ -161,7 +162,7 @@ body {
     color: var(--persian-blue);
     opacity: 50%;
     font-weight: bold;
-    margin: 15px 0 0 4px;
+    margin: 10px 0 0 4px;
 }
 
 /* MEMORY */
@@ -184,13 +185,14 @@ body {
     font-size: var(--sm2);
     color: var(--orangey-yellow);
     font-weight: bold;
+    margin: 10px 0px 0px 4px;
 }
 
 .score-memory{
     font-size: 14px;
     color: var(--persian-blue);
     font-weight: bold;
-    margin: 15px 0 0 64px;
+    margin: 10px 0 0 64px;
 }
 
 .score-memory-total{
@@ -198,7 +200,7 @@ body {
     color: var(--persian-blue);
     opacity: 50%;
     font-weight: bold;
-    margin: 15px 0 0 4px;
+    margin: 10px 0 0 4px;
 }
 
 /* VERBAL */
@@ -221,13 +223,14 @@ body {
     font-size: var(--sm2);
     color: var(--green-teal);
     font-weight: bold;
+    margin: 10px 0px 0px 4px;
 }
 
 .score-verbal{
     font-size: 14px;
     color: var(--persian-blue);
     font-weight: bold;
-    margin: 15px 0 0 78px;
+    margin: 10px 0 0 78px;
 }
 
 .score-verbal-total{
@@ -235,7 +238,7 @@ body {
     color: var(--persian-blue);
     opacity: 50%;
     font-weight: bold;
-    margin: 15px 0 0 4px;
+    margin: 10px 0 0 4px;
 }
 
 /* VISUAL */
@@ -258,13 +261,14 @@ body {
     font-size: var(--sm2);
     color: var(--cobalt-blue);
     font-weight: bold;
+    margin: 10px 0px 0px 4px;
 }
 
 .score-visual{
     font-size: 14px;
     color: var(--persian-blue);
     font-weight: bold;
-    margin: 15px 0 0 80px;
+    margin: 10px 0 0 80px;
 }
 
 .score-visual-total{
@@ -272,7 +276,7 @@ body {
     color: var(--persian-blue);
     opacity: 50%;
     font-weight: bold;
-    margin: 15px 0 0 4px;
+    margin: 10px 0 0 4px;
 }
 
 /* BOTON */
