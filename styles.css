@@ -277,7 +277,20 @@ body {
 
 /* BOTON */
 button{
-    display: inline-block;
+    background-color: var(--dark-gray-blue);
+    border-radius: 20px;
+    height: 40px;
+    width: 85%;
+    border: none;
+    margin: 12px 0 0 24px;
+    color: var(--white);
+    font-size: (--sm2) ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(var(--light-slate-blue), var(--cobalt-blue));
 }
 
 /* LINKS */
