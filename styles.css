@@ -4,13 +4,17 @@
     /* creo variables pra los colores */
 
     --ligth-red:hsl(0, 100%, 67%);
+    --ligth-red-background: hsla(0, 100%, 67%, 8%);
     --orangey-yellow: hsl(39, 100%, 56%);
+    --orangey-yellow-background: hsl(39, 100%, 56%, 8%);
     --green-teal: hsl(166, 100%, 37%);
+    --green-teal-background: hsl(166, 100%, 37%, 8%);
     --cobalt-blue: hsl(234, 85%, 45%);
+    --cobalt-blue-background: hsl(234, 85%, 45%, 8%);
     --light-slate-blue: hsl(252, 100%, 67%);
     --light-royal-blue: hsl(241, 81%, 54%);
     --violet-blue: hsla(256, 72%, 46%, 1);
-    --persian-blue: hsla(241, 72%, 46%, 0);
+    --persian-blue: hsla(241, 72%, 46%,);
     --white: hsl(0, 0%, 100%);
     --pale-blue: hsl(221, 100%, 96%);
     --light-lavender: hsl(241, 100%, 89%);
@@ -18,6 +22,7 @@
 
     /* creo variables para los tamaños de letras */
     --sm: 12px;
+    --sm2: 15px;
     --estandar: 18px; /* este es el tamaño por defecto */
     --md: 24px;
     --bg: 32px;
@@ -43,8 +48,8 @@ body {
     background: linear-gradient(var(--light-slate-blue), var(--cobalt-blue));
     border-radius: 8%;
     width: 250px;
-    height: 350px;
-    margin: 48px;
+    height: 400px;
+    margin: 48px 0;
 }
 
 /* Primer parrafo */
@@ -104,7 +109,176 @@ body {
     margin: 0 40px;
 }
 
+/* CONTENEDOR DEL RESUMEN */
 
+.summary-container{
+    background: var(--white);
+    border-radius: 0 8% 8% 0;
+    box-shadow: 10px 10px 5px 0px var(--pale-blue);
+    width: 250px;
+    height: 400px;
+    margin: 48px 0;
+}
+
+.summary-title{
+    text-align: left;
+    margin: 24px 24px;
+    font-size: var(--estandar);
+    font-weight: bold;
+}
+
+/* REACTION */
+.reaction{
+    display: flex;
+    background-color: var(--ligth-red-background);
+    margin: 24px 12px 12px 24px;
+    height: 48px;
+    border-radius: 8%;
+}
+
+.reaction img {
+    width: 15px;
+    margin: 0px 4px 0 4px;
+
+}
+
+.text-reaction{
+    text-align: left;
+    font-size: var(--sm2);
+    color: var(--ligth-red);
+    font-weight: bold;
+}
+
+.score-reaction{
+    font-size: 14px;
+    color: var(--persian-blue);
+    font-weight: bold;
+    margin: 15px 0 0 64px;
+}
+
+.score-reaction-total{
+    font-size: 14px;
+    color: var(--persian-blue);
+    opacity: 50%;
+    font-weight: bold;
+    margin: 15px 0 0 4px;
+}
+
+/* MEMORY */
+.memory{
+    display: flex;
+    background-color: var(--orangey-yellow-background);
+    margin: 0px 12px 12px 24px;
+    height: 48px;
+    border-radius: 8%;
+}
+
+.memory img {
+    width: 15px;
+    margin: 0px 4px 0 4px;
+
+}
+
+.text-memory{
+    text-align: left;
+    font-size: var(--sm2);
+    color: var(--orangey-yellow);
+    font-weight: bold;
+}
+
+.score-memory{
+    font-size: 14px;
+    color: var(--persian-blue);
+    font-weight: bold;
+    margin: 15px 0 0 64px;
+}
+
+.score-memory-total{
+    font-size: 14px;
+    color: var(--persian-blue);
+    opacity: 50%;
+    font-weight: bold;
+    margin: 15px 0 0 4px;
+}
+
+/* VERBAL */
+.verbal{
+    display: flex;
+    background-color: var(--green-teal-background);
+    margin: 0px 12px 12px 24px;
+    height: 48px;
+    border-radius: 8%;
+}
+
+.verbal img {
+    width: 15px;
+    margin: 0px 4px 0 4px;
+
+}
+
+.text-verbal{
+    text-align: left;
+    font-size: var(--sm2);
+    color: var(--green-teal);
+    font-weight: bold;
+}
+
+.score-verbal{
+    font-size: 14px;
+    color: var(--persian-blue);
+    font-weight: bold;
+    margin: 15px 0 0 78px;
+}
+
+.score-verbal-total{
+    font-size: 14px;
+    color: var(--persian-blue);
+    opacity: 50%;
+    font-weight: bold;
+    margin: 15px 0 0 4px;
+}
+
+/* VISUAL */
+.visual{
+    display: flex;
+    background-color: var(--cobalt-blue-background);
+    margin: 0px 12px 12px 24px;
+    height: 48px;
+    border-radius: 8%;
+}
+
+.visual img {
+    width: 15px;
+    margin: 0px 4px 0 4px;
+
+}
+
+.text-visual{
+    text-align: left;
+    font-size: var(--sm2);
+    color: var(--cobalt-blue);
+    font-weight: bold;
+}
+
+.score-visual{
+    font-size: 14px;
+    color: var(--persian-blue);
+    font-weight: bold;
+    margin: 15px 0 0 80px;
+}
+
+.score-visual-total{
+    font-size: 14px;
+    color: var(--persian-blue);
+    opacity: 50%;
+    font-weight: bold;
+    margin: 15px 0 0 4px;
+}
+
+/* BOTON */
+button{
+    display: inline-block;
+}
 
 /* LINKS */
 .attribution { 
