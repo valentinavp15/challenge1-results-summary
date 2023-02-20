@@ -132,8 +132,8 @@ body {
     display: flex;
     background-color: var(--ligth-red-background);
     margin: 24px 12px 12px 24px;
-    height: 48px;
-    border-radius: 8%;
+    height: 40px;
+    border-radius: 8px;
 }
 
 .reaction img {
@@ -169,8 +169,8 @@ body {
     display: flex;
     background-color: var(--orangey-yellow-background);
     margin: 0px 12px 12px 24px;
-    height: 48px;
-    border-radius: 8%;
+    height: 40px;
+    border-radius: 8px;
 }
 
 .memory img {
@@ -206,8 +206,8 @@ body {
     display: flex;
     background-color: var(--green-teal-background);
     margin: 0px 12px 12px 24px;
-    height: 48px;
-    border-radius: 8%;
+    height: 40px;
+    border-radius: 8px;
 }
 
 .verbal img {
@@ -243,8 +243,8 @@ body {
     display: flex;
     background-color: var(--cobalt-blue-background);
     margin: 0px 12px 12px 24px;
-    height: 48px;
-    border-radius: 8%;
+    height: 40px;
+    border-radius: 8px;
 }
 
 .visual img {
